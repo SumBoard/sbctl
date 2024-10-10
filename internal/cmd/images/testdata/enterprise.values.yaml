@@ -1,0 +1,14 @@
+global:
+  sumboardUrl: "http://localhost:8000"
+  edition: "enterprise"
+
+  auth:
+    enabled: false
+    instanceAdmin:
+      firstName: "test"
+      lastName:  "user"
+
+keycloak:
+  auth:
+    adminUsername: sumboardAdmin
+    adminPassword: strong-passwd
